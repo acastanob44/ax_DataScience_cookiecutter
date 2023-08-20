@@ -1,0 +1,11 @@
+{
+    "project_name": "company-department-project",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_author_name": "user",
+    "project_author_email": "{{cookiecutter.project_author_name}}@xyz.com",
+    "project_description": "Description",
+    "project_open_source_license": "MIT",
+    "project_packages": "Minimal",
+    "python_version": "3.10.9",
+    "project_version": "0.1.0"
+}
